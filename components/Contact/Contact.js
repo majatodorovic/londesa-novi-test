@@ -127,8 +127,8 @@ const Contact = () => {
       >
         <div className={`col-span-3 lg:col-span-1`}>
           <p className={`text-[0.95rem] mt-5`}>
-          Ukoliko imate pitanja ili sugestijee, slobodno nam pišite. 
-          Odgovorićemo Vam u najkraćem roku.
+            Ukoliko imate pitanja ili sugestijee, slobodno nam pišite.
+            Odgovorićemo Vam u najkraćem roku.
           </p>
           <div className={`flex flex-col gap-2 mt-5`}>
             <div className={`flex items-center gap-2`}>
@@ -136,16 +136,8 @@ const Contact = () => {
                 className={`fa fa-map-marker text-[16px] w-5 text-[#CA965C]`}
               ></i>
               <span className={`text-[0.95rem]`}>
-                <span className={`font-bold`}>Adresa:</span> Kralja Petra I
-                30, 32000 Čačak
-              </span>
-            </div>
-            <div className={`flex items-center gap-2`}>
-              <i
-                className={`fa fa-map-marker text-[16px] w-5 text-[#CA965C]`}
-              ></i>
-              <span className={`text-[0.95rem]`}>
-                <span className={`font-bold`}>Adresa 2:</span> Put ka Moravi 71a, 32103 Čačak
+                <span className={`font-bold`}>Adresa 2:</span> Put ka Moravi
+                71a, 32103 Čačak
               </span>
             </div>
             <div className={`flex items-center gap-2`}>
