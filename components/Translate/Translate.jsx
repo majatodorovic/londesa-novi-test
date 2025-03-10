@@ -1,16 +1,15 @@
 "use client";
 import { useEffect, useState } from "react";
 import { getCookie, hasCookie, setCookie } from "cookies-next";
-import {useRouter} from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const Translate = () => {
   const baseLanguage = "/auto/sr-Latn";
   const languages = [
-    { label: `Srpski`, value: "/auto/sr-Latn", shortLabel: 'SRB'},
-    { label: "English", value: "/auto/en", shortLabel: 'EN' },
+    { label: `Srpski`, value: "/auto/sr-Latn", shortLabel: "SRB" },
   ];
   const [selected, setSelected] = useState(baseLanguage);
-const router = useRouter()
+  const router = useRouter();
   useEffect(() => {
     const googleTranslateElementInit = () => {
       new window.google.translate.TranslateElement(
@@ -56,7 +55,7 @@ const router = useRouter()
       setSelected(value);
     }
     window.location.reload();
-    router.refresh()
+    router.refresh();
   };
 
   return (

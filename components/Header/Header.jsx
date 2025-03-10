@@ -16,9 +16,6 @@ const Header = () => {
   const categoriesMain = [
     { name: "Početna", slug: "/", isCategory: false, id: 0 },
     { name: "Asortiman", slug: "/", isCategory: false, id: "asortiman" },
-    { name: "Brendovi", slug: "/brendovi", isCategory: false },
-    { name: "Blog", slug: "/blog", isCategory: false },
-    { name: "Maloprodaje", slug: "/maloprodaje", isCategory: false },
     { name: "Kontakt", slug: "/kontakt", isCategory: false },
   ];
 

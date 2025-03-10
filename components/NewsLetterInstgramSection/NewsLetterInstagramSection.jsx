@@ -74,7 +74,7 @@ const NewsLetterInstagramSection = () => {
             Newsletter
           </h2>
           <p className="text-[16px] font-normal text-black my-3">
-            Prijavite se na naš newsletter i budite u toli sa svim novostima i
+            Prijavite se na naš newsletter i budite u toku sa svim novostima i
             akcijama.
           </p>
           <form className="relative w-full" onSubmit={onSubmit}>
