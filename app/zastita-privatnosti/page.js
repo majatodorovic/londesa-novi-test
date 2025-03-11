@@ -10,7 +10,7 @@ export const metadata = {
     locale: "sr_RS",
   },
 };
-const ZastitaPrivatnosti = () => {
+const PolitikaPrivatnosti = () => {
   return (
     <div className="mt-[1.2rem] md:mt-[9rem] md:w-[60%] max-md:w-[95%] mx-auto">
       <h1 className="text-center pb-7 text-[#262626] text-[1.313rem] font-bold">
@@ -262,4 +262,4 @@ const ZastitaPrivatnosti = () => {
   );
 };
 
-export default ZastitaPrivatnosti;
+export default PolitikaPrivatnosti;

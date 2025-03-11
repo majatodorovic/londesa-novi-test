@@ -38,7 +38,7 @@ const StaticPage = ({ data }) => {
                 return (
                   <div
                     key={keyGenerator("multiple_images")}
-                    className={`w-[95%] mx-auto lg:w-full lg:px-[3rem] !max-w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4`}
+                    className={`w-[75%] lg:px-[3rem] !max-w-full gap-4`}
                   >
                     {item?.content?.map((image) => {
                       return (

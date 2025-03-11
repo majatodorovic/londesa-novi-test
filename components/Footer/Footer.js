@@ -103,27 +103,19 @@ const Footer = () => {
               </Link>
               <Link
                 className={`cursor-pointer hover:text-[#CA965C] ${
-                  pathname === "/strana/povrat-sredstava" && "text-[#CA965C]"
+                  pathname === "/povrat-sredstava" && "text-[#CA965C]"
                 }`}
-                href="/strana/povrat-sredstava"
+                href="/povrat-sredstava"
               >
                 Povrat sredstava
               </Link>
               <Link
                 className={`cursor-pointer hover:text-[#CA965C] ${
-                  pathname === "/zamena-za-isti-artikal" && "text-[#CA965C]"
+                  pathname === "/strana/zamena-artikala" && "text-[#CA965C]"
                 }`}
-                href="/zamena-za-isti-artikal"
+                href="/strana/zamena-artikala"
               >
-                Zamena za isti artikal
-              </Link>
-              <Link
-                className={`cursor-pointer hover:text-[#CA965C] ${
-                  pathname === "/zamena-za-drugi-artikal" && "text-[#CA965C]"
-                }`}
-                href="/zamena-za-drugi-artikal"
-              >
-                Zamena za drugi artikal
+                Zamena artikala
               </Link>
               <Link
                 className={`cursor-pointer hover:text-[#CA965C] ${
@@ -223,19 +215,11 @@ const Footer = () => {
                 </Link>
                 <Link
                   className={`cursor-pointer hover:text-[#CA965C] ${
-                    pathname === "/zamena-za-isti-artikal" && "text-[#CA965C]"
+                    pathname === "/strana/zamena-artikala" && "text-[#CA965C]"
                   }`}
-                  href="/zamena-za-isti-artikal"
+                  href="/strana/zamena-artikala"
                 >
-                  Zamena za isti artikal
-                </Link>
-                <Link
-                  className={`cursor-pointer hover:text-[#CA965C] ${
-                    pathname === "/zamena-za-drugi-artikal" && "text-[#CA965C]"
-                  }`}
-                  href="/zamena-za-drugi-artikal"
-                >
-                  Zamena za drugi artikal
+                  Zamena artikala
                 </Link>
                 <Link
                   className={`cursor-pointer hover:text-[#CA965C] ${
@@ -424,12 +408,12 @@ const Footer = () => {
             Uslovi korišćenja •
           </Link>
           <Link
-            href="/strana/zastita-privatnosti"
+            href="/strana/politika-privatnosti"
             className={`text-[0.813rem] font-normal text-[#191919] hover:text-[#CA965C] cursor-pointer ${
-              pathname === "/strana/zastita-privatnosti" && "text-[#CA965C]"
+              pathname === "/strana/politika-privatnosti" && "text-[#CA965C]"
             }`}
           >
-            Zaštita privatnosti •
+            Politika privatnosti •
           </Link>
           <Link
             href="/strana/isporuka"

@@ -5,15 +5,15 @@ export const metadata = {
 
   robots: "index, follow",
   openGraph: {
-    title: "Kako kupiti | Londessa",
+    title: " | Londessa",
     description: "Dobrodošli na Londessa Online Shop",
     type: "website",
     locale: "sr_RS",
   },
 };
 
-const KakoKupiti = () => {
+const KakoKupiti2 = () => {
   return <HowToBuy />;
 };
 
-export default KakoKupiti;
+export default KakoKupiti2;

@@ -16,8 +16,8 @@ const HowToBuy = () => {
         Poručivanje putem telefona nije moguće.
       </p>
       <p>
-        Na vrhu stranice&nbsp;<strong>croonus.com</strong>, nalazi se glavni meni
-        sa kategorijama proizvoda.
+        Na vrhu stranice&nbsp;<strong>croonus.com</strong>, nalazi se glavni
+        meni sa kategorijama proizvoda.
         <br />
         Kada izaberete željenu kategoriju izlistaće vam se proizvodi koje ona
         sadrži. Kada izaberete željeni proizvod, na stranici tog proizvoda naći
