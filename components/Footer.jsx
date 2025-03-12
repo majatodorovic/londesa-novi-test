@@ -92,12 +92,6 @@ const Footer = () => {
               </Link>
               <Link
                 className="cursor-pointer hover:text-[#e10000]"
-                href="/povrat-sredstava"
-              >
-                Povrat sredstava
-              </Link>
-              <Link
-                className="cursor-pointer hover:text-[#e10000]"
                 href="/zamena-artikala"
               >
                 Zamena artikala
@@ -126,13 +120,14 @@ const Footer = () => {
               >
                 Ponude za posao
               </Link>
-
+              {/* 
               <Link
                 href={`/stranica-u-izradi`}
                 className="cursor-pointer hover:text-[#e10000]"
               >
                 Naše prodavnice
               </Link>
+                */}
             </div>
           </div>
           <div className="flex max-[493px]:mt-10 flex-col self-start gap-[40px]">

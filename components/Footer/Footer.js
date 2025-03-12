@@ -103,14 +103,6 @@ const Footer = () => {
               </Link>
               <Link
                 className={`cursor-pointer hover:text-[#CA965C] ${
-                  pathname === "/povrat-sredstava" && "text-[#CA965C]"
-                }`}
-                href="/povrat-sredstava"
-              >
-                Povrat sredstava
-              </Link>
-              <Link
-                className={`cursor-pointer hover:text-[#CA965C] ${
                   pathname === "/strana/zamena-artikala" && "text-[#CA965C]"
                 }`}
                 href="/strana/zamena-artikala"
@@ -148,7 +140,7 @@ const Footer = () => {
               >
                 Ponude za posao
               </Link>
-
+              {/* 
               <Link
                 href={`/maloprodaje`}
                 className={`cursor-pointer hover:text-[#CA965C] ${
@@ -157,6 +149,7 @@ const Footer = () => {
               >
                 Naše prodavnice
               </Link>
+                */}
             </div>
           </div>
           <div className="flex max-[493px]:mt-10 flex-col self-start gap-[40px] max-md:self-center">
@@ -207,14 +200,6 @@ const Footer = () => {
                 </Link>
                 <Link
                   className={`cursor-pointer hover:text-[#CA965C] ${
-                    pathname === "/strana/povrat-sredstava" && "text-[#CA965C]"
-                  }`}
-                  href="/povrat-sredstava"
-                >
-                  Povrat sredstava
-                </Link>
-                <Link
-                  className={`cursor-pointer hover:text-[#CA965C] ${
                     pathname === "/strana/zamena-artikala" && "text-[#CA965C]"
                   }`}
                   href="/strana/zamena-artikala"
@@ -257,7 +242,7 @@ const Footer = () => {
                 >
                   Ponude za posao
                 </Link>
-
+                {/* 
                 <Link
                   href={`/maloprodaje`}
                   className={`cursor-pointer hover:text-[#CA965C] ${
@@ -266,6 +251,7 @@ const Footer = () => {
                 >
                   Naše prodavnice
                 </Link>
+                   */}
               </div>
             )}
           </div>
