@@ -120,9 +120,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col self-start gap-[40px] max-md:self-center">
-            <h1 className="text-[1.063rem] font-bold">O nama</h1>
-            <div className="flex flex-col items-start gap-[0.4rem] text-[0.813rem] font-normal">
+              {/* 
               <Link
                 href={`/strana/o-nama`}
                 className={`cursor-pointer hover:text-[#CA965C] ${
@@ -140,7 +138,7 @@ const Footer = () => {
               >
                 Ponude za posao
               </Link>
-              {/* 
+           
               <Link
                 href={`/maloprodaje`}
                 className={`cursor-pointer hover:text-[#CA965C] ${
@@ -149,9 +147,7 @@ const Footer = () => {
               >
                 Naše prodavnice
               </Link>
-                */}
-            </div>
-          </div>
+                */} 
           <div className="flex max-[493px]:mt-10 flex-col self-start gap-[40px] max-md:self-center">
             <h1 className="text-[1.063rem] font-bold">Možda te interesuje</h1>
             <div className="flex flex-col items-start gap-[0.4rem] text-[0.813rem] font-normal">
@@ -218,13 +214,8 @@ const Footer = () => {
               </div>
             )}
           </div>
-          <div
-            onClick={() => setOpen({ id: open?.id === 2 ? null : 2 })}
-            className="flex flex-col self-start gap-[40px] max-md:self-center text-center"
-          >
-            <h1 className="text-[1.063rem] font-bold">O nama</h1>
-            {open?.id === 2 && (
-              <div className="flex flex-col items-center justify-center gap-[0.4rem] text-[0.813rem] font-normal">
+         
+                {/* 
                 <Link
                   href={`/strana/o-nama`}
                   className={`cursor-pointer hover:text-[#CA965C] ${
@@ -242,7 +233,7 @@ const Footer = () => {
                 >
                   Ponude za posao
                 </Link>
-                {/* 
+               
                 <Link
                   href={`/maloprodaje`}
                   className={`cursor-pointer hover:text-[#CA965C] ${
@@ -252,9 +243,8 @@ const Footer = () => {
                   Naše prodavnice
                 </Link>
                    */}
-              </div>
-            )}
-          </div>
+        
+           
           <div
             onClick={() => setOpen({ id: open?.id === 3 ? null : 3 })}
             className="flex flex-col self-start gap-[40px] max-md:self-center"
@@ -401,6 +391,7 @@ const Footer = () => {
           >
             Politika privatnosti •
           </Link>
+          {/* 
           <Link
             href="/strana/isporuka"
             className={`text-[0.813rem] font-normal text-[#191919] hover:text-[#CA965C] cursor-pointer ${
@@ -425,6 +416,7 @@ const Footer = () => {
           >
             Politika o 'Kolačićima'
           </Link>
+                */}
         </div>
         <p className="text-[0.813rem] font-normal text-[#191919] ">
           &copy; {new Date().getFullYear()} Londessa | Sva prava zadržana.

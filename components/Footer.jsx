@@ -80,7 +80,7 @@ const Footer = () => {
             <div className="flex flex-col items-start gap-[0.4rem] text-[0.813rem] font-normal">
               <Link
                 className="cursor-pointer hover:text-[#e10000]"
-                href="/kako-kupiti-2"
+                href="/strana/kako-kupiti"
               >
                 Kako kupiti
               </Link>
@@ -104,23 +104,22 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col self-start gap-[40px]">
-            <h1 className="text-[1.063rem] font-bold">O nama</h1>
-            <div className="flex flex-col items-start gap-[0.4rem] text-[0.813rem] font-normal">
+
+          {/* 
               <Link
                 href={`/stranica-u-izradi`}
                 className="cursor-pointer hover:text-[#e10000]"
               >
                 Više o kompaniji {process.env.NEXT_PUBLIC_COMPANY_NAME}
               </Link>
-
+            
               <Link
                 href={`/stranica-u-izradi`}
                 className="cursor-pointer hover:text-[#e10000]"
               >
                 Ponude za posao
               </Link>
-              {/* 
+             
               <Link
                 href={`/stranica-u-izradi`}
                 className="cursor-pointer hover:text-[#e10000]"
@@ -128,8 +127,7 @@ const Footer = () => {
                 Naše prodavnice
               </Link>
                 */}
-            </div>
-          </div>
+
           <div className="flex max-[493px]:mt-10 flex-col self-start gap-[40px]">
             <h1 className="text-[1.063rem] font-bold">Možda te interesuje</h1>
             <div className="flex flex-col items-start gap-[0.4rem] text-[0.813rem] font-normal">
@@ -262,6 +260,7 @@ const Footer = () => {
           >
             Politika privatnosti •
           </Link>
+          {/* 
           <Link
             href="/isporuka"
             className="text-[0.813rem] font-normal text-[#191919] hover:text-[#e10000] cursor-pointer"
@@ -280,6 +279,7 @@ const Footer = () => {
           >
             Politika o 'Kolačićima'
           </Link>
+          */}
         </div>
         <p className="text-[0.813rem] font-normal text-[#191919] ">
           &copy; {new Date().getFullYear()}{" "}
