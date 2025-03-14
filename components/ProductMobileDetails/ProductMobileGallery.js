@@ -174,7 +174,7 @@ const ProductMobileGallery = ({
             modules: [FreeMode, Thumbs, Navigation],
           },
           0: {
-            direction: "vertical",
+            direction: "horizontal",
             slidesPerView: 1,
             pagination: {
               el: ".swiper-pagination",
@@ -235,7 +235,7 @@ const ProductMobileGallery = ({
             modules: [],
           },
           768: {
-            direction: "vertical",
+            direction: "horizontal",
             slidesPerView: 4.25,
             enabled: true,
             loop: true,
@@ -291,7 +291,7 @@ const ProductMobileGallery = ({
             <Swiper
               modules={[Pagination, Zoom]}
               pagination={true}
-              direction={"vertical"}
+              direction={"horizontal"}
               zoom={{
                 maxRatio: 2.5,
                 toggle: true,
@@ -303,7 +303,7 @@ const ProductMobileGallery = ({
               className={`${classes.mySwiper2} modalSwiper swiper-zoom-container`}
               breakpoints={{
                 0: {
-                  direction: "vertical",
+                  direction: "horizontal",
                   slidesPerView: 1,
                   pagination: {
                     el: ".swiper-pagination",

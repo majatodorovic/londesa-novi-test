@@ -214,7 +214,7 @@ export const ProductGallery = ({ slug, id }) => {
             modules: [FreeMode, Thumbs, Navigation],
           },
           0: {
-            direction: "vertical",
+            direction: "horizontal",
             slidesPerView: 1,
             pagination: {
               el: ".swiper-pagination",
@@ -342,7 +342,7 @@ export const ProductGallery = ({ slug, id }) => {
               className={`${classes.mySwiper2} modalSwiper swiper-zoom-container`}
               breakpoints={{
                 0: {
-                  direction: "vertical",
+                  direction: "horizontal",
                   slidesPerView: 1,
                   pagination: {
                     el: ".swiper-pagination",
